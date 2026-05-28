@@ -332,7 +332,7 @@ app.post("/api/general", async (req, res) => {
     }));
     
     // 3. Send analysis email
-    await sendAnalysisEmail(email, symptoms, normalizedData);
+    // await sendAnalysisEmail(email, symptoms, normalizedData);
    
     // 4. Respond to frontend
     res.json(normalizedData);
